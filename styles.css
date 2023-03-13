@@ -1,0 +1,341 @@
+html, body{
+    margin:0;
+    padding: 0;
+    height: 100%;
+}
+nav{
+    position: absolute;
+    top:0;
+    padding: 45px 0px;
+    width: 100%;
+}
+.logo{
+    margin-right: 350px;
+    margin-left: 60px;
+    text-decoration: none;
+    font-family: candara;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+nav a{
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: Verdana;
+    font-size: 15px;
+    color: white;
+}
+main{
+    padding: 200px 150px;
+    margin: 0px;
+    height: 500px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/ogbackground.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+}
+main section{
+    text-align: center;
+}
+main h1{
+    display: inline-block;
+    color: white;
+    font-family: Bahnschrift Light;
+    font-size: 60px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    margin-bottom: 1px;
+}
+main p{
+    color: white;
+    font-family: Bahnschrift Light;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+main a{
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 30px;
+    color: white;
+    font-family: Bahnschrift Light;
+    font-size: 17px;
+}
+.download{
+    background-color: rgb(100, 100, 250);
+    border-radius: 5px;
+}
+.features{
+    border: 2px solid rgb(100, 100, 250);
+    border-radius: 5px;
+}
+#about div, #portfolio div.heading, #services div.top, #team div.top, #blog div.top, #contact div.top{
+    text-align: center;
+    margin-top: 150px;
+}
+#about h2, #portfolio h2, #services h2, #team h2, #blog h2, #contact h2{
+    font-family: MS UI Gothic;
+    font-size: 30px;
+}
+#about p, #portfolio p, #services p.tag, #team p.tag, #blog p.tag, #contact p.tag{
+    font-family: MS UI Gothic;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(81, 81, 81);
+}
+#about img{
+    float: right;
+    margin-top: 20px;
+    margin-right: 80px;
+}
+#about aside{
+    height: 250px;
+    padding-left: 50px;
+    padding-top: 50px;
+    padding-right: 600px;
+    font-family: MS UI Gothic;
+    color: rgb(81, 81, 81);
+    line-height: 1.5em;
+}
+#portfolio li{
+    list-style-type: none;
+}
+#portfolio img{
+    float: right;
+    width: 25%;
+    padding: 0px;
+    margin: 0px;
+}
+.images{
+    margin: 50px auto;
+}
+#portfolio aside{
+    text-align: center;
+    margin-top: 550px;
+    width: 100%;
+    font-family: MS UI Gothic;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgb(81, 81, 81);
+}
+#portfolio aside a{
+    display: inline-block;
+    border: 2px solid rgb(100, 100, 250);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 30px;
+    font-family: Bahnschrift Light;
+    font-size: 17px;
+    font-weight: bold;
+}
+#testimonials h2{
+    display: inline-block;
+    padding-top: 50px;
+    font-family: MS UI Gothic;
+    font-size: 30px;
+    color: white;
+}
+#testimonials p.para{
+    font-family: MS UI Gothic;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    line-height: 1.6em;
+}
+.author{
+    display: inline-block;
+    padding: 10px;
+    font-family: MS UI Gothic;
+    font-weight: bolder;
+    color: rgb(46, 46, 250);
+}
+#testimonials{
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/testimonial.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    height: 450px;
+    margin-top: 30px;
+}
+.columns{
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+#services aside{
+    float: left;
+    width: 31%;
+    padding: 1%;
+}
+#services img{
+    width: 40px;
+    height: 40px;
+}
+.columns h3{
+    font-family: MS UI Gothic;
+    font-size: 1.4em;
+}
+.columns p{
+    font-family: MS UI Gothic;
+    font-weight: lighter;
+    color: rgb(81, 81, 81);
+    line-height: 1.2em;
+}
+.team-members aside{
+    float: left;
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+.team-members img{
+    width: 100%;
+}
+.team-members{
+    padding: 20px 60px;
+}
+.team-members h4{
+    font-family: MS UI Gothic;
+    font-size: 1.2em;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.team-members p{
+    font-family: MS UI Gothic;
+    font-weight: lighter;
+    color: rgb(81, 81, 81);
+    padding: 0px;
+    margin: 0px;
+    margin-top: 5px;
+    display: inline-block;
+}
+.team-video{
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(images/team\ video.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    height: 350px;
+    margin-top: 30px;
+    width: 100%;
+    padding-top: 100px;
+}
+.team-video img{
+    width: 80px;
+    height: 80px;
+}
+.team-video p{
+    font-family: MS UI Gothic;
+    font-size: 27px;
+    font-style: italic;
+    font-weight: lighter;
+    color: white;
+    line-height: 1.2em;
+}
+.team-video a{
+    background-color: rgb(100, 100, 250);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 30px;
+    color: white;
+    font-family: Bahnschrift Light;
+    font-size: 17px;
+}
+.news img{
+    width: 100%;
+}
+.news{
+    padding: 20px 50px;
+    text-align: left;
+}
+.news aside{
+    float: left;
+    width: 31%;
+    padding: 1%;
+    font-family: Bahnschrift Light;
+}
+.date{
+    font-style: italic;
+    font-size: 0.9em;
+    color: rgb(100, 100, 100);
+}
+.news .para{
+    color: rgb(81, 81, 81);
+}
+.news .read-more{
+    color: rgb(35, 145, 255);
+    font-weight: bold;
+    font-size: 0.8em;
+    text-decoration: none;
+}
+.button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 30px 42.5%;
+    color: black;
+    font-family: Bahnschrift Light;
+    font-size: 17px;
+    border: 2px solid rgb(100, 100, 250);
+    border-radius: 5px;
+    font-weight: bold;
+}
+form{
+    padding: 30px 200px;
+}
+input[type="text"]{
+    display: inline-block;
+    width: 45%;
+    padding: 10px 5px;
+    margin: 10px;
+}
+input[type="email"], textarea{
+    display: inline-block;
+    width: 94%;
+    padding: 10px 5px;
+    margin: 10px;
+}
+input[type="submit"]{
+    display: inline-block;
+    text-decoration: none;
+    padding: 13px 25px;
+    margin: 30px 42.5%;
+    color: white;
+    font-family: Bahnschrift Light;
+    font-size: 17px;
+    border: 2px solid rgb(100, 100, 250);
+    border-radius: 5px;
+    background-color: rgb(100, 100, 250);
+}
+footer{
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+footer a{
+    text-decoration: none;
+    padding: 30px;
+    color: white;
+    font-size: 0.9em;
+    font-family: Bahnschrift;
+}
+footer p{
+    font-family: Bahnschrift;
+    color: rgb(81, 81, 81);
+    font-weight: bold;
+}
+footer span{
+    color:rgb(35, 145, 255);
+}
